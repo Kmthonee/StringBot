@@ -1,0 +1,52 @@
+{
+  "name": "Source Kmthon ↺",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://i.postimg.cc/R0C3wCzK/IMG-20240302-171600-182.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/modymesourceze/SESSION",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لا تغيير هذة القيمة",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ضع ايبي ايدي احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": "12822843"
+    },
+    "API_HASH": {
+      "description": "ضع ايبي هاش احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": "689f3bfcefe86a6a3dffe6830baf1010"
+    },
+    "OWNER_ID": {
+      "description": "ضع ايدي مالك البوت",
+      "required": true,
+      "value": "5449190469"
+    },
+    "MONGO_DB_URI": {
+      "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
+      "required": true,
+      "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority"
+    },
+    "MUST_JOIN": {
+      "description": "ضع يوزر جروب للبوت.(without @)",
+      "required": true,
+      "value": "D2_RK"
+    },
+    "BOT_TOKEN": {
+      "description": "ارسل توكن البوت احصل علية من @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
